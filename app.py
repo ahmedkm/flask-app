@@ -20,4 +20,4 @@ else:
     ip = '0.0.0.0'                            #localhost
     port = 8051
 
-httpd = make_server(ip, port, application)
+app.run(debug=True,host='0.0.0.0',port=port)
